@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    jusitify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  background: rgb(54, 54, 115);
+}
+
+h1{
+    background: rgb(191, 191, 255);
+    margin: auto 20px;
+    border-radius: 10px;
+    padding: 20px;
+} 
+
+main{
+    margin: 20%;
+    top: 20%;
+    height: 60%;
+    width: 95%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    background: rgb(90, 90, 217);
+    order: 2; 
+    padding: 20px 40px;
+    padding-top: 0;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 5%;
+    width: 45%;
+}
+
+ table{
+    margin-top: 1%;
+}
+
+table, tr, th, td{
+    background: white;
+     border: 1px solid black;
+    width: 50%; 
+} 
+
+
+input{
+    width: 70px;
+}
